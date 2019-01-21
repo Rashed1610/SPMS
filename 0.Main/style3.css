@@ -1,0 +1,86 @@
+*{
+	padding:0px;
+	margin :0px;
+}
+body{
+	margin:0 auto;
+	background-image:url('login.jpg');
+	background-size:cover;
+	font-size: 100% 17px;
+	
+	background-repeat:no-repeat;
+	
+	}
+.top_area{
+	width:100%;margin:0px;padding:10px;height:60px;opacity:0.6;background-color:#000000;overflow:hidden;color:white;text-align:center;
+}
+.top_area ul{
+	text-align:center;
+}
+.top_area ul li{
+	display:inline-block;
+	margin-top:7px;
+}
+.top_area ul li a{
+	
+	
+	padding:0px;
+	transition:1s;
+	display:inline-block;
+	text-align :center;
+	width:30px;
+	height:30px;
+	background:black;
+	text-align:center;
+	border-radius:8px;
+}
+.top_area ul li a i{
+	color:white;
+	font-size:25px;
+	padding:3px;
+	
+}
+.top_area ul li a i:hover{
+	color:black;
+	transition:1s;
+	
+	
+}
+.top_area ul li a:hover{
+	color:white;
+	transform:rotate(360deg) scale(1.9);
+	background:white;
+}
+
+.container{
+	width:350px;
+	height:300px;
+	text-align: center;
+	margin :0 auto;
+	background-color: rgba(44,62,80,0.7);
+	border-radius: 04px;
+	margin:0 auto;
+	margin-top: 50px;
+}
+.container input{
+	margin-top: 20px;
+	width:180px;
+	height:25px;
+}
+
+.container img{
+	width: 80px;
+	height: 80px;
+	margin-top: 20px;
+	margin-right:25px;
+	text-align:center;
+}
+.header{width:100%;
+	padding:3px;
+	margin-bottom: 20px;
+	height:80px;
+	opacity:0.6;
+	background-color:#000000;
+	overflow:hidden;color:white;
+	text-align:center;
+}
